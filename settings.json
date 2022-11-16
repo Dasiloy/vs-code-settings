@@ -1,0 +1,150 @@
+{
+    "workbench.editor.enablePreview": false,
+    "git.ignoreMissingGitWarning": true,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnPaste": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "html"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "prettier.bracketSameLine": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.printWidth": 80,
+    "editor.formatOnSave": true,
+    "files.autoSaveDelay": 100,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "prettier.arrowParens": "avoid",
+    "prettier.jsxSingleQuote": false,
+    "prettier.singleQuote": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.debug": true,
+    "editor.suggestSelection": "first",
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "emmet.triggerExpansionOnTab": true,
+    "cSpell.allowCompoundWords": true,
+    "cSpell.experimental.enableRegexpView": true,
+    "css.lint.float": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "emmet.excludeLanguages": [],
+    "css.validate": false,
+    "tailwindCSS.validate": false,
+    "scss.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.autoClosingQuotes": "always",
+    "tailwindCSS.experimental.classRegex": [
+        "tw`([^`]*)", // tw`...`
+        "tw=\"([^\"]*)", // <div tw="..." />
+        "tw={\"([^\"}]*)", // <div tw={"..."} />
+        "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+        "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+    ],
+    "tailwindCSS.includeLanguages": {
+        "typescript": "javascript",
+        "typescriptreact": "javascript"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-ui-snippets.showNotesOnStartup": false,
+    "workbench.colorTheme": "Midnight Pastel",
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "cSpell.userWords": [
+        "esbenp",
+        "formik",
+        "zustand"
+    ],
+    "colorize.languages": [
+        "javascriptreact",
+        "typescript",
+        "javascript",
+        "css",
+        "scss"
+    ],
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Cascadia Code', 'Fira Code'",
+    "git.enableSmartCommit": true,
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.suggest.showStatusBar": true,
+    "editor.unfoldOnClickAfterEndOfLine": true,
+    "prettier.endOfLine": "auto",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\USER\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true,
+        "javascript": true,
+        "typescript": true
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "files.autoSave": "afterDelay",
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": false,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}
